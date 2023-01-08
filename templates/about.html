@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Scrapie</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='about_style.css')}}">
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    <h3>About Scrapie</h3>
+                </div>
+                <div class="content">
+                    <h3>Hi,</h3>
+                    <p class="text"> Scrapie is a web scrapper. We have to provide
+                        a mobile name and reviews count separated by '/',count is optional
+                        but if u want to provide count pass a number which ends with double zero
+                        then scrapie will collect product reviews from Flipkart website.
+                        Reviews will contain name of person , his\her rating, person's comment and few more things...
+                        Thank you
+                    </p>
+                    <div class="button">
+                        <a href="/">Go Back</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="{{url_for('static', filename='images/about_img.jpg')}}">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

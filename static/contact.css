@@ -1,0 +1,12 @@
+.button a{
+    background-color: blue;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+    background-color: red;
+    color: #fff;
+}
